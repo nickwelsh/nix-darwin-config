@@ -62,11 +62,16 @@
     casks = [
       "1password"
       "adguard"
+      "discord"
       "herd"
       "jetbrains-toolbox"
       "karabiner-elements"
+      "notion"
+      "notion-calendar"
+      "notion-mail"
       "raycast"
       "setapp"
+      "steam"
       "sublime-text"
       "warp"
     ];

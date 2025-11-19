@@ -73,6 +73,7 @@
       "setapp"
       "steam"
       "sublime-text"
+      "tailscale-app"
       "warp"
     ];
   };

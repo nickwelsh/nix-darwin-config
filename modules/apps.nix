@@ -40,15 +40,15 @@
     # You need to install all these Apps manually first so that your apple account have records for them.
     # otherwise Apple Store will refuse to install them.
     # For details, see https://github.com/mas-cli/mas
-    masApps = {
-      Drafts = 1435957248;
-      FinalCutPro = 424389933;
-      Infuse = 1136220934;
-      LogicPro = 634148309;
-      Peek = 1554235898;
-      Things3 = 904280696;
-      Xcode = 497799835;
-    };
+    # masApps = {
+    #   Drafts = 1435957248;
+    #   FinalCutPro = 424389933;
+    #   Infuse = 1136220934;
+    #   LogicPro = 634148309;
+    #   Peek = 1554235898;
+    #   Things3 = 904280696;
+    #   Xcode = 497799835;
+    # };
 
     # taps = [];
 

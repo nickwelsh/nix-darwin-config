@@ -121,7 +121,7 @@
         "com.apple.sound.beep.feedback" = 0;  # disable beep sound when pressing volume up/down key
         AppleInterfaceStyle = "Dark";  # dark mode
         AppleKeyboardUIMode = 3;  # Mode 3 enables full keyboard control.
-        ApplePressAndHoldEnabled = true;  # enable press and hold
+        ApplePressAndHoldEnabled = false;  # enable press and hold
         AppleICUForce24HourTime = true; # use a 24-hour time
 
         # If you press and hold certain keyboard keys when in a text area, the key’s character begins to repeat.
@@ -129,7 +129,7 @@
         # sets how long it takes before it starts repeating.
         InitialKeyRepeat = 15;  # normal minimum is 15 (225 ms), maximum is 120 (1800 ms)
         # sets how fast it repeats once it starts. 
-        KeyRepeat = 3;  # normal minimum is 2 (30 ms), maximum is 120 (1800 ms)
+        KeyRepeat = 1;  # normal minimum is 2 (30 ms), maximum is 120 (1800 ms)
 
         NSAutomaticCapitalizationEnabled = false;  # disable auto capitalization
         NSAutomaticDashSubstitutionEnabled = false;  # disable auto dash substitution

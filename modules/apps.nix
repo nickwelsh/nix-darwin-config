@@ -82,6 +82,9 @@
       "tailscale-app"
       "vlc"
       "warp"
+    ]
+    ++ pkgs.lib.optionals pkgs.stdenv.isAarch64 [
+      "chatgpt"
     ];
   };
 }

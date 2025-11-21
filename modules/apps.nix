@@ -55,6 +55,7 @@
     # `brew install`
     # TODO Feel free to add your favorite apps here.
     brews = [
+      "gemini-cli"
     ];
 
     # `brew install --cask`
@@ -62,6 +63,7 @@
     casks = [
       "1password"
       "adguard"
+      "codex"
       "discord"
       "firefox"
       "helium-browser"

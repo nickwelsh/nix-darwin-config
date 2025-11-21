@@ -167,10 +167,6 @@
           HIDScrollZoomModifierMask = 262144; # 262144 = Control key
         };
         "com.apple.finder" = {
-          ShowExternalHardDrivesOnDesktop = true;
-          ShowHardDrivesOnDesktop = true;
-          ShowMountedServersOnDesktop = true;
-          ShowRemovableMediaOnDesktop = true;
           _FXSortFoldersFirst = false;
           # When performing a search, search the current folder by default
           FXDefaultSearchScope = "SCcf";

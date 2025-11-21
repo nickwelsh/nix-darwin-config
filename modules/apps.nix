@@ -75,6 +75,7 @@
       "raycast"
       "setapp"
       "steam"
+      "sublime-merge"
       "sublime-text"
       "tailscale-app"
       "vlc"

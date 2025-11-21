@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, username, ... }:
 
   ###################################################################################
   #
@@ -41,7 +41,7 @@
         # Dock behaviour
         autohide = true;                     # auto-hide Dock
         show-recents = false;                # no recent apps section 
-        static-only = true;                  # show only open apps (Finder is always there) 
+        static-only = false;                 # show only open apps (Finder is always there) 
         persistent-apps = [ ];               # no pinned apps beyond Finder
 
         # Minimize behaviour
@@ -50,6 +50,7 @@
 
         # Stacks / visual tweaks
         mouse-over-hilite-stack = true;      # highlight grid stack on hover 
+        scroll-to-open = true;               # scroll to open stack
         showhidden = true;                   # hidden apps appear translucent 
 
         mru-spaces = false;              # disable “Automatically rearrange Spaces…” 
@@ -221,6 +222,30 @@
           showMissionControlGestureEnabled = true;
           showDesktopGestureEnabled = true;
           showLaunchpadGestureEnabled = true;
+          "persistent-others" = [
+            {
+              "tile-data" = {
+                # 1 = Name, 2 = Date Added, 3 = Date Modified, 4 = Date Created, 5 = Kind
+                arrangement = 2;
+
+                # 0 = Stack, 1 = Folder
+                displayas = 0;
+
+                # 0 = Automatic, 1 = Fan, 2 = Grid, 3 = List
+                showas = 1;
+
+                "file-data" = {
+                  "_CFURLString" = "file:///Users/${username}/Downloads/";
+                  "_CFURLStringType" = 15;
+                };
+
+                # 2 = directory
+                "file-type" = 2;
+              };
+
+              "tile-type" = "directory-tile";
+            }
+          ];
         };
         "com.apple.AppleMultitouchTrackpad" = {
           ForceSuppressed = false;                # keep force click enabled

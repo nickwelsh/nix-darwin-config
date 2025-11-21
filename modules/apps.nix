@@ -64,6 +64,7 @@
       "adguard"
       "discord"
       "herd"
+      "iina"
       "jetbrains-toolbox"
       "karabiner-elements"
       "notion"
@@ -74,6 +75,7 @@
       "steam"
       "sublime-text"
       "tailscale-app"
+      "vlc"
       "warp"
     ];
   };

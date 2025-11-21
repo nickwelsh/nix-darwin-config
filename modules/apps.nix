@@ -63,6 +63,8 @@
       "1password"
       "adguard"
       "discord"
+      "firefox"
+      "helium-browser"
       "herd"
       "iina"
       "jetbrains-toolbox"

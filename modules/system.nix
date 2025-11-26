@@ -222,6 +222,10 @@
           showMissionControlGestureEnabled = true;
           showDesktopGestureEnabled = true;
           showLaunchpadGestureEnabled = true;
+          # Bottom-right hot corner: do nothing
+          "wvous-br-corner" = 0;     # 0 = no action
+          "wvous-br-modifier" = 0;   # no modifiers
+          
           "persistent-others" = [
             {
               "tile-data" = {

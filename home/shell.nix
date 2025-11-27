@@ -28,5 +28,6 @@
 
   home.shellAliases = {
     pa = "php artisan";
+    pamfs = "php artisan migrate:fresh --seed";
   };
 }

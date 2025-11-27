@@ -51,7 +51,7 @@
     # TODO replace with your own username, email, system, and hostname
     username = "nick";
     useremail = "11924961+nickwelsh@users.noreply.github.com.";
-    system = "x86_64-darwin"; # aarch64-darwin or x86_64-darwin
+    system = "aarch64-darwin"; # aarch64-darwin or x86_64-darwin
     hostname = "Nicks-MacBook-Pro";
 
     specialArgs =

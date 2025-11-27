@@ -63,6 +63,7 @@
     casks = [
       "1password"
       "adguard"
+      "appcleaner"
       "codex"
       "discord"
       "firefox"

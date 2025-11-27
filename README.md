@@ -30,3 +30,4 @@ sudo mv /etc/bashrc /etc/bashrc.before-nix-darwin
 11. Launch and sign into JetBrains Toolbox
 12. Install PHPStorm via JetBrains Toolbox
 13. Launch PHPStorm, import config, enable sync
+14. Run `post-install.zsh`

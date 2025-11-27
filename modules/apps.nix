@@ -64,6 +64,7 @@
       "1password"
       "adguard"
       "appcleaner"
+      "bambu-studio"
       "codex"
       "discord"
       "firefox"

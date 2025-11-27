@@ -1,0 +1,14 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Nix",
+		"Package Control",
+		"plist",
+		"Plist Binary",
+		"Theme - Monokai Pro",
+	],
+}

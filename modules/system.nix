@@ -162,6 +162,8 @@
         NSGlobalDomain = {
           # Add a context menu item for showing the Web Inspector in web views
           WebKitDeveloperExtras = true;
+
+          NSQuitAlwaysKeepsWindows = true;
         };
         "com.apple.universalaccess" = {
           closeViewScrollWheelToggle = true;  # enable “Use scroll gesture with modifier keys to zoom”

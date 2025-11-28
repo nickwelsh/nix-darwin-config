@@ -68,6 +68,7 @@
       "bambu-studio"
       "codex"
       "discord"
+      "ea"
       "firefox"
       "helium-browser"
       "herd"

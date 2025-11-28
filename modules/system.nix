@@ -179,6 +179,9 @@
           DSDontWriteNetworkStores = true;
           DSDontWriteUSBStores = true;
         };
+        "com.apple.Safari" = {
+          AutoOpenSafeDownloads = false;
+        };
         "com.apple.spaces" = {
           "spans-displays" = 0; # Display have seperate spaces
         };

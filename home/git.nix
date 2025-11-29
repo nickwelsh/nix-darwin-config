@@ -1,9 +1,15 @@
 {
   lib,
+  pkgs,
+  config,
   username,
   useremail,
   ...
 }: {
+  xdg.configFile."git/allowed_signers".text = ''
+    ${useremail} ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHjONnnIKpDO5hLAynDkDnaIH3CyrKGrpdIQEdOqz/pE git-signing-key
+  '';
+
   # `programs.git` will generate the config file: ~/.config/git/config
   # to make git use this config file, `~/.gitconfig` should not exist!
   #
@@ -32,6 +38,7 @@
       init.defaultBranch = "main";
       push.autoSetupRemote = true;
       pull.rebase = true;
+      gpg.ssh.allowedSignersFile = "${config.xdg.configHome}/git/allowed_signers";
     };
 
     signing = {

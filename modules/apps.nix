@@ -50,7 +50,9 @@
     #   Xcode = 497799835;
     # };
 
-    # taps = [];
+    taps = [
+      "nickwelsh/tap"
+    ];
 
     # `brew install`
     # TODO Feel free to add your favorite apps here.

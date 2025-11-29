@@ -90,6 +90,11 @@
       "tailscale-app"
       "vlc"
       "warp"
+
+      "nickwelsh/tap/arctic"
+      "nickwelsh/tap/offshoot"
+      "nickwelsh/tap/parashoot"
+      "nickwelsh/tap/postlab"
     ]
     ++ pkgs.lib.optionals pkgs.stdenv.isAarch64 [
       "chatgpt"

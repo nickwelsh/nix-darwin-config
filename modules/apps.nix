@@ -75,6 +75,8 @@
       "iina"
       "jetbrains-toolbox"
       "karabiner-elements"
+      "keka"
+      "kekaexternalhelper"
       "notion"
       "notion-calendar"
       "notion-mail"

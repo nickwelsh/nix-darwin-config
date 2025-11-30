@@ -60,6 +60,7 @@
       "asdf"
       "aspell"
       "gemini-cli"
+      "libyaml"
     ];
 
     # `brew install --cask`

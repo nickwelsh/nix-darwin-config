@@ -57,6 +57,7 @@
     # `brew install`
     # TODO Feel free to add your favorite apps here.
     brews = [
+      "asdf"
       "aspell"
       "gemini-cli"
     ];

@@ -73,3 +73,16 @@ done
 
 echo
 echo "Done. Any app changes will now write into $REPO_LIB."
+
+echo
+echo "Enabling shell completions for asdf"
+
+mkdir -p "$ASDF_DATA_DIR/completions"
+asdf completion zsh > "$ASDF_DATA_DIR/completions/_asdf"
+
+
+
+
+
+echo "Post install complete."
+echo "Restart your shell."

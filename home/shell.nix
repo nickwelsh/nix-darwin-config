@@ -1,9 +1,27 @@
-{...}: {
+{username, ...}: {
   programs.zsh = {
     enable = true;
     enableCompletion = true;
     initContent = ''
-      export PATH="$PATH:$HOME/bin:$HOME/.local/bin:$HOME/go/bin:$HOME/Library/Application Support/Herd/bin"
+      # ---------- #
+      # -- ASDF -- #
+      # ---------- #
+
+      # set data directory
+      export ASDF_DATA_DIR="/users/${username}/.config/asdf"
+
+      # add to path
+      path=("$ASDF_DATA_DIR/shims" $path)
+
+      # append completions to fpath
+      fpath=($ASDF_DATA_DIR/completions $fpath)
+
+      # initialise completions with ZSH's compinit
+      autoload -Uz compinit && compinit
+
+      # ---------- #
+      # -- Herd -- #
+      # ---------- #
 
       # Automatically switch to the correct node version when changing directories
       [[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"
@@ -13,7 +31,7 @@
       [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
       # Herd injected PHP binary.
-      export PATH="/Users/nick/Library/Application Support/Herd/bin/":$PATH
+      path+=("/Users/${username}/Library/Application Support/Herd/bin/")
 
       # Herd injected PHP 8.3 configuration.
       export HERD_PHP_83_INI_SCAN_DIR="/Users/nick/Library/Application Support/Herd/config/php/83/"

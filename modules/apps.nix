@@ -81,6 +81,7 @@
       "karabiner-elements"
       "keka"
       "kekaexternalhelper"
+      "native-access"
       "notion"
       "notion-calendar"
       "notion-mail"

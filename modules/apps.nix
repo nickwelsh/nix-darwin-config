@@ -85,6 +85,7 @@
       "notion"
       "notion-calendar"
       "notion-mail"
+      "rapidapi"
       "raycast"
       "setapp"
       "steam"

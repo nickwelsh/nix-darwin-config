@@ -88,6 +88,7 @@
       "rapidapi"
       "raycast"
       "setapp"
+      "sf-symbols"
       "steam"
       "sublime-merge"
       "sublime-text"

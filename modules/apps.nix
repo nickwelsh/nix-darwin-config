@@ -69,6 +69,7 @@
       "1password"
       "adguard"
       "appcleaner"
+      "audacity"
       "bambu-studio"
       "codex"
       "discord"

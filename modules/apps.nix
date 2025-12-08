@@ -83,6 +83,7 @@
       "karabiner-elements"
       "keka"
       "kekaexternalhelper"
+      "little-snitch"
       "loopback"
       "native-access"
       "notion"

@@ -90,6 +90,8 @@
       "setapp"
       "sf-symbols"
       "steam"
+      "steinberg-activation-manager"
+      "steinberg-download-assistant"
       "sublime-merge"
       "sublime-text"
       "tailscale-app"

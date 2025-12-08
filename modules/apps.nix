@@ -103,6 +103,7 @@
       "transmit"
       "vlc"
       "warp"
+      "yellowdot"
 
       "nickwelsh/tap/arctic"
       "nickwelsh/tap/offshoot"

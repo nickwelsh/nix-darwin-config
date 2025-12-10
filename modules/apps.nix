@@ -61,6 +61,7 @@
       "aspell"
       "gemini-cli"
       "libyaml"
+      "withgraphite/tap/graphite"
     ];
 
     # `brew install --cask`

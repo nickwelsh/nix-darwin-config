@@ -93,6 +93,7 @@
       "notion"
       "notion-calendar"
       "notion-mail"
+      "protonvpn"
       "rapidapi"
       "raycast"
       "setapp"

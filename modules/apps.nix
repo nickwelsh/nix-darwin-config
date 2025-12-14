@@ -59,9 +59,11 @@
     brews = [
       "asdf"
       "aspell"
+      "ffmpeg"
       "gemini-cli"
       "libyaml"
       "withgraphite/tap/graphite"
+      "yt-dlp"
     ];
 
     # `brew install --cask`

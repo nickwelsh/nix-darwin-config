@@ -82,6 +82,7 @@
       "helium-browser"
       "herd"
       "iina"
+      "imageoptim"
       "jetbrains-toolbox"
       "karabiner-elements"
       "keka"

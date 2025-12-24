@@ -89,6 +89,7 @@
       "karabiner-elements"
       "keka"
       "kekaexternalhelper"
+      "linear-linear"
       "little-snitch"
       "loopback"
       "native-access"

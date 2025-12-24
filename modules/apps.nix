@@ -77,6 +77,7 @@
       "audio-hijack"
       "bambu-studio"
       "codex"
+      "crossover"
       "cursor"
       "discord"
       "ea"

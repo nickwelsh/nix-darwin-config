@@ -24,7 +24,7 @@
       # ---------- #
 
       # Automatically switch to the correct node version when changing directories
-      [[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"
+      # [[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"
 
       # Herd injected NVM configuration
       export NVM_DIR="/Users/nick/Library/Application Support/Herd/config/nvm"

@@ -92,6 +92,7 @@
       "linear-linear"
       "little-snitch"
       "loopback"
+      "modrinth"
       "native-access"
       "notion"
       "notion-calendar"

@@ -90,6 +90,7 @@
       "karabiner-elements"
       "keka"
       "kekaexternalhelper"
+      "keyboard-maestro"
       "linear-linear"
       "little-snitch"
       "loopback"

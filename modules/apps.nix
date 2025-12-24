@@ -96,6 +96,7 @@
       "notion"
       "notion-calendar"
       "notion-mail"
+      "orbstack"
       "protonvpn"
       "rapidapi"
       "raycast"

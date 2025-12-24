@@ -62,6 +62,7 @@
       "ffmpeg"
       "gemini-cli"
       "libyaml"
+      "python@3.14"
       "withgraphite/tap/graphite"
       "yt-dlp"
     ];

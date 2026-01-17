@@ -113,6 +113,7 @@
       "sublime-merge"
       "sublime-text"
       "tailscale-app"
+      "transmission"
       "transmit"
       "vlc"
       "warp"

@@ -88,6 +88,7 @@
       "iina"
       "imageoptim"
       "jetbrains-toolbox"
+      "kaleidoscope"
       "karabiner-elements"
       "keka"
       "kekaexternalhelper"

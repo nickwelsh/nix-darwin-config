@@ -115,6 +115,7 @@
       "tailscale-app"
       "transmission"
       "transmit"
+      "ungoogled-chromium"
       "vlc"
       "warp"
 

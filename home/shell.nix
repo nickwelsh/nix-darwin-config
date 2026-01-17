@@ -41,6 +41,13 @@
 
       # Herd injected PHP 8.5 configuration.
       export HERD_PHP_85_INI_SCAN_DIR="/Users/nick/Library/Application Support/Herd/config/php/85/"
+
+      # ---------- #
+      # -- PATH -- #
+      # ---------- #
+
+      path+=($PATH, "/Users/nick/.bun/bin")
+      path+=($PATH, "/Users/nick/.local/bin")
     '';
   };
 

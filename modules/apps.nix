@@ -107,6 +107,7 @@
       "raycast"
       "setapp"
       "sf-symbols"
+      "sketch"
       "soundsource"
       "steam"
       "steinberg-activation-manager"

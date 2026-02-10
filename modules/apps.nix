@@ -113,6 +113,7 @@
       "obsidian"
       "onedrive"
       "orbstack"
+      "orion"
       "protonvpn"
       "rapidapi"
       "raycast"

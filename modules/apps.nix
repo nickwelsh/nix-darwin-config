@@ -79,6 +79,7 @@
       "autodesk-fusion"
       "bambu-studio"
       "codex"
+      "codex-app"
       "crossover"
       "cursor"
       "discord"

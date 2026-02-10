@@ -63,6 +63,7 @@
       "gemini-cli"
       "libyaml"
       "mediainfo"
+      "pipx"
       "python@3.14"
       "withgraphite/tap/graphite"
       "yt-dlp"

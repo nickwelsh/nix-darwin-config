@@ -65,6 +65,7 @@
       "mediainfo"
       "pipx"
       "python@3.14"
+      "uv"
       "withgraphite/tap/graphite"
       "yt-dlp"
     ];

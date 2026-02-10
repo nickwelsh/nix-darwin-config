@@ -96,6 +96,7 @@
       "keyboard-maestro"
       "linear-linear"
       "little-snitch"
+      "lm-studio"
       "loopback"
       "microsoft-auto-update"
       "microsoft-excel"

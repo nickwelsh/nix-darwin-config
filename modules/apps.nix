@@ -86,6 +86,7 @@
       "discord"
       "ea"
       "firefox"
+      "gitbutler"
       "helium-browser"
       "herd"
       "iina"

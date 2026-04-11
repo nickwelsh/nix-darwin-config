@@ -52,6 +52,7 @@
 
     taps = [
       "nickwelsh/tap"
+      "xykong/tap"
     ];
 
     # `brew install`
@@ -147,6 +148,8 @@
       "nickwelsh/tap/offshoot"
       "nickwelsh/tap/parashoot"
       "nickwelsh/tap/postlab"
+
+      "xykong/tap/flux-markdown"
     ]
     ++ pkgs.lib.optionals pkgs.stdenv.isAarch64 [
       "chatgpt"

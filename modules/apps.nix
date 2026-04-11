@@ -60,6 +60,7 @@
       "asdf"
       "aspell"
       "ffmpeg"
+      "fzf"
       "gemini-cli"
       "libyaml"
       "mediainfo"

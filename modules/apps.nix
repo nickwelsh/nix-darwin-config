@@ -79,6 +79,7 @@
       "1password"
       "1password-cli"
       "adguard"
+      "antinote"
       "appcleaner"
       "audacity"
       "audio-hijack"

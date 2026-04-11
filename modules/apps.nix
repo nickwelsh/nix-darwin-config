@@ -61,6 +61,7 @@
       "aspell"
       "ffmpeg"
       "fzf"
+      "gallery-dl"
       "gemini-cli"
       "libyaml"
       "mediainfo"

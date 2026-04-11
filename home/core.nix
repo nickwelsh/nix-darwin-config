@@ -10,9 +10,9 @@
   ];
 
   programs = {
-    bun = {
-      enable = true;
-    };
+    # bun = {
+    #   enable = true;
+    # };
 
     # A modern replacement for ‘ls’
     # useful in bash/zsh prompt, not in nushell.

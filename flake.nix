@@ -34,6 +34,8 @@
       url = "github:nix-darwin/nix-darwin/nix-darwin-25.05";
       inputs.nixpkgs.follows = "nixpkgs-darwin";
     };
+
+    nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   };
 
   # The `outputs` function will return all the build results of the flake.

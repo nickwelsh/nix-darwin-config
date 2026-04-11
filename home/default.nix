@@ -8,6 +8,7 @@
     ./git.nix
     ./starship.nix
     ./karabiner.nix
+    ./bun.nix
   ];
 
   # Home Manager needs a bit of information about you and the

@@ -114,6 +114,7 @@
       "notion-calendar"
       "notion-mail"
       "obsidian"
+      "ogdesign-eagle"
       "onedrive"
       "orbstack"
       "orion"

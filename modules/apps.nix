@@ -109,6 +109,7 @@
       "microsoft-powerpoint"
       "microsoft-word"
       "modrinth"
+      "monologue"
       "native-access"
       "notion"
       "notion-calendar"

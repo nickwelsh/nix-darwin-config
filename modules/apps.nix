@@ -75,6 +75,7 @@
     # TODO Feel free to add your favorite apps here.
     casks = [
       "1password"
+      "1password-cli"
       "adguard"
       "appcleaner"
       "audacity"

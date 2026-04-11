@@ -90,6 +90,7 @@
       "crossover"
       "cursor"
       "discord"
+      "dockdoor"
       "ea"
       "firefox"
       "gitbutler"

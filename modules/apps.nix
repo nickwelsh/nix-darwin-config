@@ -143,6 +143,7 @@
       "ungoogled-chromium"
       "vlc"
       "warp"
+      "zed"
 
       "nickwelsh/tap/arctic"
       "nickwelsh/tap/offshoot"

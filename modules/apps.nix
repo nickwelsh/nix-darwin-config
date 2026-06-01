@@ -122,6 +122,7 @@
       "obsidian"
       "ogdesign-eagle"
       "onedrive"
+      "openusage"
       "orbstack"
       "orion"
       "protonvpn"

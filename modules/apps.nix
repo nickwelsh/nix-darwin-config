@@ -92,6 +92,7 @@
       "cursor"
       "discord"
       "dockdoor"
+      "dockside"
       "ea"
       "firefox"
       "gitbutler"

@@ -22,10 +22,6 @@
     enable = true;
     lfs.enable = true;
 
-    # TODO replace with your own name & email
-    userName = username;
-    userEmail = useremail;
-
     # includes = [
     #   {
     #     # use diffrent email & name for work
@@ -34,13 +30,6 @@
     #   }
     # ];
 
-    extraConfig = {
-      init.defaultBranch = "main";
-      push.autoSetupRemote = true;
-      pull.rebase = true;
-      gpg.ssh.allowedSignersFile = "${config.xdg.configHome}/git/allowed_signers";
-    };
-
     signing = {
       key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHjONnnIKpDO5hLAynDkDnaIH3CyrKGrpdIQEdOqz/pE";
       signByDefault = true;
@@ -48,21 +37,30 @@
       signer = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign";
     };
 
-    aliases = {
-      # common aliases
-      br = "branch";
-      co = "checkout";
-      st = "status";
-      ls = "log --pretty=format:\"%C(yellow)%h%Cred%d\\\\ %Creset%s%Cblue\\\\ [%cn]\" --decorate";
-      ll = "log --pretty=format:\"%C(yellow)%h%Cred%d\\\\ %Creset%s%Cblue\\\\ [%cn]\" --decorate --numstat";
-      cm = "commit -m";
-      ca = "commit -am";
-      dc = "diff --cached";
-      amend = "commit --amend -m";
+    settings = {
+      user = {
+        name = username;
+        email = useremail;
+      };
 
-      # aliases for submodule
-      update = "submodule update --init --recursive";
-      foreach = "submodule foreach";
+      init.defaultBranch = "main";
+      push.autoSetupRemote = true;
+      pull.rebase = true;
+      gpg.ssh.allowedSignersFile = "${config.xdg.configHome}/git/allowed_signers";
+
+      alias = {
+        br = "branch";
+        co = "checkout";
+        st = "status";
+        ls = "log --pretty=format:\"%C(yellow)%h%Cred%d\\\\ %Creset%s%Cblue\\\\ [%cn]\" --decorate";
+        ll = "log --pretty=format:\"%C(yellow)%h%Cred%d\\\\ %Creset%s%Cblue\\\\ [%cn]\" --decorate --numstat";
+        cm = "commit -m";
+        ca = "commit -am";
+        dc = "diff --cached";
+        amend = "commit --amend -m";
+        update = "submodule update --init --recursive";
+        foreach = "submodule foreach";
+      };
     };
   };
 }

@@ -5,10 +5,10 @@
 	[
 		"Vintage",
 	],
-	"theme": "Monokai Pro (Filter Spectrum).sublime-theme",
-	"color_scheme": "Monokai Pro (Filter Spectrum).sublime-color-scheme",
+	"theme": "Monokai Pro Light.sublime-theme",
+	"color_scheme": "Monokai Pro Light.sublime-color-scheme",
 	"font_face": "JetBrainsMono Nerd Font",
-	"font_size": 14,
+	"font_size": 16,
 	"line_padding_bottom": 6,
 	"line_padding_top": 6,
 	"default_font_size": 14,

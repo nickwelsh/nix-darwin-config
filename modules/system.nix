@@ -20,7 +20,7 @@
      ".GlobalPreferences" = {
         # Pointer speeds:
         #
-        # Mouse: slider internally is 0.0–3.0. 3.0 ≈ very max; steps are 0.5. 
+        # Mouse: slider internally is 0.0–3.0. 3.0 ≈ very max; steps are 0.5.
         # 8/10 ≈ 2.5 here.
         "com.apple.mouse.scaling" = 2.5;
       };
@@ -35,32 +35,31 @@
         NowPlaying = false;
         Sound = false;
       };
-      
+
       # customize dock
       dock = {
         # Dock behaviour
         autohide = true;                     # auto-hide Dock
-        show-recents = false;                # no recent apps section 
-        static-only = false;                 # show only open apps (Finder is always there) 
+        show-recents = false;                # no recent apps section
+        static-only = false;                 # show only open apps (Finder is always there)
         persistent-apps = [ ];               # no pinned apps beyond Finder
 
         # Minimize behaviour
-        mineffect = "suck";                  # genie/scale/suck 
-        minimize-to-application = true;      # minimize into app icon 
+        mineffect = "suck";                  # genie/scale/suck
+        minimize-to-application = true;      # minimize into app icon
 
         # Stacks / visual tweaks
-        mouse-over-hilite-stack = true;      # highlight grid stack on hover 
+        mouse-over-hilite-stack = true;      # highlight grid stack on hover
         scroll-to-open = true;               # scroll to open stack
-        showhidden = true;                   # hidden apps appear translucent 
+        showhidden = true;                   # hidden apps appear translucent
 
-        mru-spaces = false;              # disable “Automatically rearrange Spaces…” 
+        mru-spaces = false;              # disable “Automatically rearrange Spaces…”
 
-        # Not ready yet, see CustomUserPreferences."com.apple.dock" for now
         # Trackpad / gesture hooks (Desktop & Dock > Mission Control section)
-        # showMissionControlGestureEnabled = true;  # 3/4-finger swipe up → Mission Control 
-        # showAppExposeGestureEnabled = true;       # 3/4-finger swipe down → App Exposé
-        # showDesktopGestureEnabled = true;         # 4-finger spread → Desktop 
-        # showLaunchpadGestureEnabled = true;       # 4-finger pinch → Launchpad 
+        showMissionControlGestureEnabled = true;  # 3/4-finger swipe up → Mission Control
+        showAppExposeGestureEnabled = true;       # 3/4-finger swipe down → App Exposé
+        showDesktopGestureEnabled = true;         # 4-finger spread → Desktop
+        showLaunchpadGestureEnabled = true;       # 4-finger pinch → Launchpad
       };
 
       # customize finder
@@ -83,35 +82,35 @@
       trackpad = {
         # Tracking / click feel
         #
-        # ActuationStrength: 0 = light/silent, 1 = normal 
+        # ActuationStrength: 0 = light/silent, 1 = normal
         # First/SecondClickThreshold: 0 = light, 1 = medium, 2 = firm.
         ActuationStrength = 0;        # light click
         FirstClickThreshold = 0;      # primary click = light
         SecondClickThreshold = 0;     # force click = light
 
-        # ForceSuppressed = false;      # enable force click & haptics
+        ForceSuppressed = false;      # enable force click & haptics
 
         # Secondary click: click with two fingers
-        TrackpadRightClick = true;    # enable two-finger secondary click 
+        TrackpadRightClick = true;    # enable two-finger secondary click
 
         # Tap to click: OFF
         Clicking = false;             # tapping does nothing, you must click
 
         # Zoom / rotate / smart zoom
-        # TrackpadPinch = true;                 # pinch to zoom
-        # TrackpadRotate = true;                # two-finger rotate
-        # TrackpadTwoFingerDoubleTapGesture = true;  # smart zoom on double-tap with two fingers 
+        TrackpadPinch = true;                 # pinch to zoom
+        TrackpadRotate = true;                # two-finger rotate
+        TrackpadTwoFingerDoubleTapGesture = true;  # smart zoom on double-tap with two fingers
 
         # Three-finger horizontal: switch full-screen apps
         #
         # TrackpadThreeFingerHorizSwipeGesture:
-        #   0 = disabled, 1 = swipe between pages, 2 = swipe between full-screen apps. 
-        # TrackpadThreeFingerHorizSwipeGesture = 2;
+        #   0 = disabled, 1 = swipe between pages, 2 = swipe between full-screen apps.
+        TrackpadThreeFingerHorizSwipeGesture = 2;
 
         TrackpadThreeFingerDrag = true;  # enable three finger drag
       };
 
-      magicmouse.MouseButtonMode = "TwoButton";  # "TwoButton" = primary/secondary 
+      magicmouse.MouseButtonMode = "TwoButton";  # "TwoButton" = primary/secondary
 
       # customize settings that not supported by nix-darwin directly
       # Incomplete list of macOS `defaults` commands :
@@ -129,7 +128,7 @@
         # This is very useful for vim users, they use `hjkl` to move cursor.
         # sets how long it takes before it starts repeating.
         InitialKeyRepeat = 15;  # normal minimum is 15 (225 ms), maximum is 120 (1800 ms)
-        # sets how fast it repeats once it starts. 
+        # sets how fast it repeats once it starts.
         KeyRepeat = 1;  # normal minimum is 2 (30 ms), maximum is 120 (1800 ms)
 
         NSAutomaticCapitalizationEnabled = false;  # disable auto capitalization
@@ -141,17 +140,17 @@
         NSNavPanelExpandedStateForSaveMode2 = true;
 
         # Swipe between pages (two-finger / one-finger scroll left/right)
-        AppleEnableSwipeNavigateWithScrolls = true;               # trackpad 
-        AppleEnableMouseSwipeNavigateWithScrolls = true;          # Magic Mouse 
+        AppleEnableSwipeNavigateWithScrolls = true;               # trackpad
+        AppleEnableMouseSwipeNavigateWithScrolls = true;          # Magic Mouse
 
         # Trackpad: slider internally is 0.0–3.0. 3.0 ≈ very max; steps are 0.5.. 7/10 ≈ 2.0.
-        "com.apple.trackpad.scaling" = 2.0;   
+        "com.apple.trackpad.scaling" = 2.0;
       };
 
       # Customize settings that not supported by nix-darwin directly
       # see the source code of this project to get more undocumented options:
       #    https://github.com/rgcr/m-cli
-      # 
+      #
       # All custom entries can be found by running `defaults read` command.
       # or `defaults read xxx` to read a specific domain.
       CustomUserPreferences = {
@@ -202,7 +201,7 @@
         # Prevent Photos from opening automatically when devices are plugged in
         "com.apple.ImageCapture".disableHotPlug = true;
 
-        # Magic Mouse gestures (com.apple.AppleMultitouchMouse and BT driver) 
+        # Magic Mouse gestures (com.apple.AppleMultitouchMouse and BT driver)
         "com.apple.AppleMultitouchMouse" = {
           # 2-finger horizontal swipe → switch full-screen apps / Spaces
           "MouseTwoFingerHorizSwipeGesture" = 2;
@@ -218,14 +217,10 @@
 
         # Temporary
        "com.apple.dock" = {
-          showAppExposeGestureEnabled = true;
-          showMissionControlGestureEnabled = true;
-          showDesktopGestureEnabled = true;
-          showLaunchpadGestureEnabled = true;
           # Bottom-right hot corner: do nothing
           "wvous-br-corner" = 0;     # 0 = no action
           "wvous-br-modifier" = 0;   # no modifiers
-          
+
           "persistent-others" = [
             {
               "tile-data" = {
@@ -250,21 +245,6 @@
               "tile-type" = "directory-tile";
             }
           ];
-        };
-        "com.apple.AppleMultitouchTrackpad" = {
-          ForceSuppressed = false;                # keep force click enabled
-          TrackpadPinch = true;                   # pinch to zoom
-          TrackpadRotate = true;                  # two-finger rotate
-          TrackpadTwoFingerDoubleTapGesture = true;  # smart zoom
-          TrackpadThreeFingerHorizSwipeGesture = 2;  # 2 = full-screen apps
-        };
-
-        "com.apple.driver.AppleBluetoothMultitouch.trackpad" = {
-          ForceSuppressed = false;
-          TrackpadPinch = true;
-          TrackpadRotate = true;
-          TrackpadTwoFingerDoubleTapGesture = true;
-          TrackpadThreeFingerHorizSwipeGesture = 2;
         };
       };
 

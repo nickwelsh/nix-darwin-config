@@ -1,0 +1,141 @@
+{
+  "format_on_save": "on",
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000,
+    },
+  },
+  "agent": {
+    "default_model": {
+      "effort": "low",
+      "enable_thinking": true,
+      "model": "gpt-5.6-sol",
+      "provider": "openai-subscribed",
+    },
+    "default_profile": "minimal",
+    "favorite_models": [],
+    "model_parameters": [],
+    "tool_permissions": {
+      "tools": {
+        "create_directory": {
+          "default": "allow",
+        },
+        "fetch": {
+          "always_allow": [
+            {
+              "pattern": "^https?://raw\\.githubusercontent\\.com",
+            },
+            {
+              "pattern": "^https?://zero\\.rocicorp\\.dev",
+            },
+          ],
+        },
+        "mcp:laravel-boost:search-docs": {
+          "default": "allow",
+        },
+        "mcp:shadcn:get_audit_checklist": {
+          "default": "allow",
+        },
+        "move_path": {
+          "default": "allow",
+        },
+        "terminal": {
+          "default": "allow",
+        },
+      },
+    },
+  },
+  "base_keymap": "JetBrains",
+  "buffer_font_size": 15,
+  "buffer_line_height": {
+    "custom": 2.200000047683716,
+  },
+  "cli_default_open_behavior": "new_window",
+  "context_servers": {
+    "herd": {
+      "args": ["/Applications/Herd.app/Contents/Resources/herd-mcp.phar"],
+      "command": "php",
+      "enabled": true,
+      "remote": false,
+    },
+    "playwright": {
+      "args": ["@playwright/mcp@latest"],
+      "command": "npx",
+      "enabled": true,
+      "remote": false,
+    },
+    "shadcn": {
+      "args": ["shadcn@latest", "mcp"],
+      "command": "npx",
+      "enabled": true,
+      "remote": false,
+    },
+    "trigger": {
+      "args": ["trigger.dev@4.5.9", "mcp"],
+      "command": "npx",
+    },
+  },
+  "git_panel": {
+    "tree_view": true,
+  },
+  "icon_theme": {
+    "dark": "Material Icon Theme",
+    "light": "Material Icon Theme",
+    "mode": "light",
+  },
+  "inlay_hints": {
+    "enabled": true,
+  },
+  "auto_signature_help": true,
+  "show_signature_help_after_edits": true,
+  "languages": {
+    "CSS": {
+      "language_servers": ["tailwindcss-language-server"],
+    },
+    "PHP": {
+      "formatter": "language_server",
+      "format_on_save": "on",
+      "language_servers": [
+        "phpmd",
+        "!intelephense",
+        "!phpactor",
+        "phpantom",
+        "phpcs",
+        "!phptools",
+      ],
+    },
+  },
+  "lsp": {
+    "vtsls": {
+      "enable_lsp_tasks": true,
+      "settings": {
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always",
+          },
+        },
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always",
+          },
+        },
+      },
+    },
+  },
+  "project_panel": {
+    "dock": "left",
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+  },
+  "terminal": {
+    "font_family": "JetBrainsMono Nerd Font",
+  },
+  "theme": {
+    "dark": "Monokai Pro",
+    "light": "Monokai Pro Light",
+    "mode": "system",
+  },
+  "ui_font_size": 16,
+}

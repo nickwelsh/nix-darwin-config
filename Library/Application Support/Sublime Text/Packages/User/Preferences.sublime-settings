@@ -22,6 +22,7 @@
 	"monokai_pro_style_title_bar": true,
 	"index_files": false,
 	"spell_check": true,
+	"save_on_focus_lost": true,
 	"added_words":
 	[
 		"Laravel",

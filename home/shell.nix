@@ -48,12 +48,6 @@
 
       path+=($PATH, "/Users/${username}/.bun/bin")
       path+=($PATH, "/Users/${username}/.local/bin")
-
-      # ---------- #
-      # -- VITE+ - #
-      # ---------- #
-
-      . /Users/${username}/.vite-plus/env
     '';
   };
 

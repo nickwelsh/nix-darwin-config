@@ -86,15 +86,15 @@
       "media-info"
       # a cli to list, start and create issues in the linear issue tracker
       "schpet/tap/linear"
+      # Unified toolchain and entry point for web development
+      "vite-plus"
     ];
 
     # `brew install --cask`
     # TODO Feel free to add your favorite apps here.
     casks = [
       # Password manager that keeps all passwords secure behind one password
-      # "1password"
-      # Command-line interface for 1Password
-      # "1password-cli"
+      "1password"
       # Stand alone ad blocker
       "adguard"
       # Temporary notes with calculations and extensible features
@@ -102,21 +102,21 @@
       # Application uninstaller
       "appcleaner"
       # Chromium based browser
-      "arc"
+      # "arc"
       # The ultimate Final Cut Pro library cleaner. Find caches, helper files, and non-original media, whether they are on connected drives or in a cupboard, and reclaim all that disk space you so sorely need.
-      "nickwelsh/tap/arctic"
+      # "nickwelsh/tap/arctic"
       # Multi-track audio editor and recorder
-      # "audacity"
+      "audacity"
       # Records audio from any application
-      "audio-hijack"
+      # "audio-hijack"
       # Integrated CAD, CAM, CAE, and PCB software
-      "autodesk-fusion"
+      # "autodesk-fusion"
       # 3D model slicing software for 3D printers, maintained by Bambu Lab
-      "bambu-studio"
+      # "bambu-studio"
       # Web browser focusing on privacy
       # "brave-browser"
       # OpenAI's official ChatGPT desktop app
-      # "chatgpt"
+      "chatgpt"
       # OpenAI's coding agent that runs in your terminal
       # "codex"
       # OpenAI's Codex desktop app for managing coding agents
@@ -126,15 +126,15 @@
       # Write, edit, and chat about your code with AI
       # "cursor"
       # Voice and text chat software
-      # "discord"
+      "discord"
       # Window peeking utility app
-      "dockdoor"
+      # "dockdoor"
       # Dock utility
       # "dockside"
       # Electronic Arts game launcher
       # "ea"
       # Web browser
-      # "firefox"
+      "firefox"
       # Web browser
       # "firefox@developer-edition"
       # Web browser
@@ -156,23 +156,23 @@
       # Laravel and PHP development environment manager
       "herd"
       # Free and open-source media player
-      # "iina"
+      "iina"
       # Tool to optimise images to a smaller size
       "imageoptim"
       # JetBrains tools manager
-      # "jetbrains-toolbox"
+      "jetbrains-toolbox"
       # Spot and merge differences in text and image files or folders
       "kaleidoscope"
       # Keyboard customiser
-      # "karabiner-elements"
+      "karabiner-elements"
       # File archiver
-      # "keka"
+      "keka"
       # Helper application for the Keka file archiver
       "kekaexternalhelper"
       # Automation software
       # "keyboard-maestro"
       # App to manage software development and track bugs
-      # "linear"
+      "linear"
       # Host-based application firewall
       "little-snitch"
       # Discover, download, and run local LLMs
@@ -218,13 +218,13 @@
       # Cloud storage client
       # "onedrive"
       # AI usage tracker for Cursor, Claude Code, Codex, Copilot and more
-      # "openusage"
+      "openusage"
       # Web browser
       # "opera"
       # Replacement for Docker Desktop
-      # "orbstack"
+      "orbstack"
       # WebKit based web browser
-      "orion"
+      # "orion"
       # The safe memory card eraser
       # "nickwelsh/tap/parashoot"
       # The highly anticipated successor to Postlab Classic! Get your whole creative team on the same page, managing projects and versioning on any system, anywhere you are.
@@ -234,7 +234,7 @@
       # HTTP client that helps testing and describing APIs
       "rapidapi"
       # Control your tools with a few keystrokes
-      # "raycast"
+      "raycast"
       # Collection of apps available by subscription
       "setapp"
       # Tool that provides consistent, highly configurable symbols for apps
@@ -256,7 +256,7 @@
       # Text editor for code, markup and prose
       # "sublime-text"
       # Mesh VPN based on WireGuard
-      # "tailscale-app"
+      "tailscale-app"
       # Web browser
       # "thebrowsercompany-dia"
       # Open-source BitTorrent client
@@ -270,9 +270,9 @@
       # Multimedia player
       "vlc"
       # Rust-based terminal
-      # "warp"
+      "warp"
       # Multiplayer code editor
-      # "zed"
+      "zed"
       # Gecko based web browser
       # "zen"
     ];

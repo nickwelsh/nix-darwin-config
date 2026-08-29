@@ -92,9 +92,9 @@
     # TODO Feel free to add your favorite apps here.
     casks = [
       # Password manager that keeps all passwords secure behind one password
-      "1password"
+      # "1password"
       # Command-line interface for 1Password
-      "1password-cli"
+      # "1password-cli"
       # Stand alone ad blocker
       "adguard"
       # Temporary notes with calculations and extensible features
@@ -106,7 +106,7 @@
       # The ultimate Final Cut Pro library cleaner. Find caches, helper files, and non-original media, whether they are on connected drives or in a cupboard, and reclaim all that disk space you so sorely need.
       "nickwelsh/tap/arctic"
       # Multi-track audio editor and recorder
-      "audacity"
+      # "audacity"
       # Records audio from any application
       "audio-hijack"
       # Integrated CAD, CAM, CAE, and PCB software
@@ -114,167 +114,167 @@
       # 3D model slicing software for 3D printers, maintained by Bambu Lab
       "bambu-studio"
       # Web browser focusing on privacy
-      "brave-browser"
+      # "brave-browser"
       # OpenAI's official ChatGPT desktop app
-      "chatgpt"
+      # "chatgpt"
       # OpenAI's coding agent that runs in your terminal
-      "codex"
+      # "codex"
       # OpenAI's Codex desktop app for managing coding agents
-      "codex-app"
+      # "codex-app"
       # Tool to run Windows software
-      "crossover"
+      # "crossover"
       # Write, edit, and chat about your code with AI
-      "cursor"
+      # "cursor"
       # Voice and text chat software
-      "discord"
+      # "discord"
       # Window peeking utility app
       "dockdoor"
       # Dock utility
-      "dockside"
+      # "dockside"
       # Electronic Arts game launcher
-      "ea"
+      # "ea"
       # Web browser
-      "firefox"
+      # "firefox"
       # Web browser
-      "firefox@developer-edition"
+      # "firefox@developer-edition"
       # Web browser
-      "firefox@nightly"
+      # "firefox@nightly"
       # Beautiful Markdown previews in macOS Finder QuickLook
       "xykong/tap/flux-markdown"
       # Git client for simultaneous branches on top of your existing workflow
-      "gitbutler"
+      # "gitbutler"
       # Web browser
-      "google-chrome"
+      # "google-chrome"
       # Web browser
-      "google-chrome@beta"
+      # "google-chrome@beta"
       # Web browser
-      "google-chrome@canary"
+      # "google-chrome@canary"
       # Web browser
-      "google-chrome@dev"
+      # "google-chrome@dev"
       # Chromium-based web browser
       "helium-browser"
       # Laravel and PHP development environment manager
       "herd"
       # Free and open-source media player
-      "iina"
+      # "iina"
       # Tool to optimise images to a smaller size
       "imageoptim"
       # JetBrains tools manager
-      "jetbrains-toolbox"
+      # "jetbrains-toolbox"
       # Spot and merge differences in text and image files or folders
       "kaleidoscope"
       # Keyboard customiser
-      "karabiner-elements"
+      # "karabiner-elements"
       # File archiver
-      "keka"
+      # "keka"
       # Helper application for the Keka file archiver
       "kekaexternalhelper"
       # Automation software
-      "keyboard-maestro"
+      # "keyboard-maestro"
       # App to manage software development and track bugs
-      "linear"
+      # "linear"
       # Host-based application firewall
       "little-snitch"
       # Discover, download, and run local LLMs
-      "lm-studio"
+      # "lm-studio"
       # Cable-free audio router
-      "loopback"
+      # "loopback"
       # Provides updates to various Microsoft products
-      "microsoft-auto-update"
+      # "microsoft-auto-update"
       # Multi-platform web browser
-      "microsoft-edge"
+      # "microsoft-edge"
       # Multi-platform web browser
-      "microsoft-edge@beta"
+      # "microsoft-edge@beta"
       # Multi-platform web browser
-      "microsoft-edge@canary"
+      # "microsoft-edge@canary"
       # Multi-platform web browser
-      "microsoft-edge@dev"
+      # "microsoft-edge@dev"
       # Spreadsheet software
-      "microsoft-excel"
+      # "microsoft-excel"
       # Presentation software
-      "microsoft-powerpoint"
+      # "microsoft-powerpoint"
       # Word processor
-      "microsoft-word"
+      # "microsoft-word"
       # Minecraft modding platform
-      "modrinth"
+      # "modrinth"
       # AI voice dictation that adapts to your writing style
-      "monologue"
+      # "monologue"
       # Administration tool for Native Instruments products
-      "native-access"
+      # "native-access"
       # Reverse proxy, secure introspectable tunnels to localhost
-      "ngrok"
+      # "ngrok"
       # App to write, plan, collaborate, and get organised
-      "notion"
+      # "notion"
       # Calendar for professionals and teams
-      "notion-calendar"
+      # "notion-calendar"
       # Email client integrated with Notion workspace
-      "notion-mail"
+      # "notion-mail"
       # Knowledge base that works on top of a local folder of plain text Markdown files
-      "obsidian"
+      # "obsidian"
       # Fast, verified data transfers with metadata management for offload and ingest. Formerly known as Hedge, OffShoot is your ideal companion when managing media.
-      "nickwelsh/tap/offshoot"
+      # "nickwelsh/tap/offshoot"
       # Organise all your reference images in one place
       "ogdesign-eagle"
       # Cloud storage client
-      "onedrive"
+      # "onedrive"
       # AI usage tracker for Cursor, Claude Code, Codex, Copilot and more
-      "openusage"
+      # "openusage"
       # Web browser
-      "opera"
+      # "opera"
       # Replacement for Docker Desktop
-      "orbstack"
+      # "orbstack"
       # WebKit based web browser
       "orion"
       # The safe memory card eraser
-      "nickwelsh/tap/parashoot"
+      # "nickwelsh/tap/parashoot"
       # The highly anticipated successor to Postlab Classic! Get your whole creative team on the same page, managing projects and versioning on any system, anywhere you are.
-      "nickwelsh/tap/postlab"
+      # "nickwelsh/tap/postlab"
       # VPN client focusing on security
-      "protonvpn"
+      # "protonvpn"
       # HTTP client that helps testing and describing APIs
       "rapidapi"
       # Control your tools with a few keystrokes
-      "raycast"
+      # "raycast"
       # Collection of apps available by subscription
       "setapp"
       # Tool that provides consistent, highly configurable symbols for apps
       "sf-symbols"
       # 3D CAD software
-      "shapr3d"
+      # "shapr3d"
       # Digital design and prototyping platform
       "sketch"
       # Sound and audio controller
-      "soundsource"
+      # "soundsource"
       # Video game digital distribution service
-      "steam"
+      # "steam"
       # Licenses manager for Steinberg Licensing
-      "steinberg-activation-manager"
+      # "steinberg-activation-manager"
       # Tool to download files for Steinberg products
-      "steinberg-download-assistant"
+      # "steinberg-download-assistant"
       # Git client
-      "sublime-merge"
+      # "sublime-merge"
       # Text editor for code, markup and prose
-      "sublime-text"
+      # "sublime-text"
       # Mesh VPN based on WireGuard
-      "tailscale-app"
+      # "tailscale-app"
       # Web browser
-      "thebrowsercompany-dia"
+      # "thebrowsercompany-dia"
       # Open-source BitTorrent client
-      "transmission"
+      # "transmission"
       # File transfer application
       "transmit"
       # Google Chromium, sans integration with Google
-      "ungoogled-chromium"
+      # "ungoogled-chromium"
       # Web browser with built-in email client focusing on customization and control
-      "vivaldi"
+      # "vivaldi"
       # Multimedia player
       "vlc"
       # Rust-based terminal
-      "warp"
+      # "warp"
       # Multiplayer code editor
-      "zed"
+      # "zed"
       # Gecko based web browser
-      "zen"
+      # "zen"
     ];
   };
 }

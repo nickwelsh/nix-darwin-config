@@ -18,6 +18,26 @@
     ripgrep # Recursively searches directories for a regex pattern
     talosctl # CLI for out-of-band management of Kubernetes nodes created by Talos
     terraform # Tool for building, changing, and versioning infrastructure
+    _1password-gui # Multi-platform password manager
+    _1password-cli # 1Password command-line tool
+    audacity # Sound editor with graphical UI
+    chatgpt # Desktop application for ChatGPT
+    codex # Lightweight coding agent that runs in your terminal
+    discord # All-in-one cross-platform voice and text chat for gamers
+    firefox # Web browser built from Firefox source tree
+    glow # Render markdown on the CLI, with pizzazz
+    iina # Modern media player for macOS
+    jetbrains-toolbox # JetBrains Toolbox
+    karabiner-elements # Powerful utility for keyboard customization on macOS Ventura (13) or later
+    keka # macOS file archiver
+    linear # App to manage software development and track bugs
+    orbstack # Fast, light, and easy way to run Docker containers and Linux machines
+    rapidapi # Full-featured HTTP client that lets you test and describe the APIs you build or consume
+    raycast # Control your tools with a few keystrokes
+    soundsource # Sound controller for macOS
+    tailscale-gui # Tailscale GUI client for macOS
+    warp-terminal # Rust-based terminal
+    zed-editor # High-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
   ];
 
   programs = {

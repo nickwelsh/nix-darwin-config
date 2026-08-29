@@ -1,6 +1,6 @@
 { pkgs, inputs, ... }:
 let
-  pkgsUnstable = import inputs.nixpkgs-unstable { system = pkgs.system; };
+  pkgsUnstable = import inputs.nixpkgs-unstable { system = pkgs.stdenv.hostPlatform.system; };
 in
 {
   home.packages = [

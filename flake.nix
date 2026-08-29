@@ -58,7 +58,7 @@
     specialArgs =
       inputs
       // {
-        inherit username useremail hostname;
+        inherit inputs username useremail hostname;
       };
   in {
     darwinConfigurations."${hostname}" = darwin.lib.darwinSystem {

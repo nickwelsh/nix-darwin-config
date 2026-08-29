@@ -28,6 +28,11 @@
     stateVersion = "25.05";
   };
 
+  # GUI packages in home.packages are per-user applications. Link their app
+  # bundles under ~/Applications/Home Manager Apps; /Applications/Nix Apps is
+  # reserved for GUI packages installed through environment.systemPackages.
+  targets.darwin.linkApps.enable = true;
+
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
 }

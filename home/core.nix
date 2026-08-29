@@ -1,4 +1,11 @@
-{pkgs, ...}: {
+{pkgs, inputs, ...}: let
+  # Warp's DMG uses APFS, which the stable nixpkgs `undmg` unpacker cannot
+  # handle. The unstable package uses the newer 7-Zip-based unpacker.
+  pkgsUnstable = import inputs.nixpkgs-unstable {
+    system = pkgs.stdenv.hostPlatform.system;
+    config.allowUnfree = true;
+  };
+in {
   home.packages = with pkgs; [
     ansible # Radically simple IT automation
     asdf-vm # Extendable version manager with support for Ruby, Node.js, Erlang & more
@@ -36,7 +43,7 @@
     raycast # Control your tools with a few keystrokes
     soundsource # Sound controller for macOS
     tailscale-gui # Tailscale GUI client for macOS
-    warp-terminal # Rust-based terminal
+    pkgsUnstable.warp-terminal # Rust-based terminal
     zed-editor # High-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
   ];
 

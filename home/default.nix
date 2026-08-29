@@ -1,6 +1,4 @@
-{ username, ... }:
-
-{
+{username, ...}: {
   # import sub modules
   imports = [
     ./shell.nix
@@ -9,6 +7,7 @@
     ./starship.nix
     ./karabiner.nix
     ./zed.nix
+    ./rust.nix
   ];
 
   # Home Manager needs a bit of information about you and the

@@ -121,6 +121,8 @@
       # "codex"
       # OpenAI's Codex desktop app for managing coding agents
       # "codex-app"
+      # System-wide AI autocomplete
+      "cotypist"
       # Tool to run Windows software
       # "crossover"
       # Write, edit, and chat about your code with AI
